@@ -58,7 +58,7 @@ class _CoursesScreenState extends State<CoursesScreen> {
       });
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('ተማሪው በተሳካ ሁኔታ ተሰርዟል!')),
+          const SnackBar(content: Text('Student is success full pase!')),
         );
       }
     }
