@@ -21,10 +21,10 @@ class _LoginScreenState extends State<LoginScreen> {
 
   void login() {
     if (emailController.text.contains('@')) {
-      // ተማሪው ሲገባ Default መረጃው እና የያዛቸው ኮርሶች ይጫናሉ
+      
       Student currentStudent = Student(
         id: "STU-1024",
-        name: "አማኑኤል የኔዓለም",
+        name: "Amanuel yenealm",
         email: emailController.text,
         department: "Computer Science",
         level: "Level 4",
