@@ -15,7 +15,7 @@ class Student {
     this.enrolledCourses = const [],
   });
 
-  // JSON ወደ Student Object ለመቀየር
+  // JSON  Student Object 
   factory Student.fromJson(Map<String, dynamic> json) {
     return Student(
       id: json['id']?.toString() ?? '',
@@ -29,7 +29,7 @@ class Student {
     );
   }
 
-  // Student Object ወደ JSON ለመቀየር
+  
   Map<String, dynamic> toJson() {
     return {
       'id': id,
